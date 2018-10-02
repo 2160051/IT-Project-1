@@ -62,17 +62,18 @@ for city_ctr in range(city_length):
                                 month_replaced = month_today.replace(for_replacement, "monyr=" + str(month_counter) + "/1/2018")
                                 driver.get(month_replaced)
                                 soup = BeautifulSoup(driver.page_source, "html.parser")
-                        
-                                #put here the reader for table, store and export to csv if possible
+				#put here the reader for table, store and export to csv if possible
                                 table = soup.findAll("table", {"class":"calendar-list"})[0]
-								rows = table.findAll("tr")
-								csvFile = open("temperature.csv", 'wt' , newline='')
-								writer = csv.writer(csvFile)
-								try:
-									for row in rows:
-									csvRow = []
-									for cell in row.findAll(['td', 'th']):
-										csvRow.append(cell.get_text())
-									writer.writerow(csvrow)
-								finally:
-									csvFile.close()
+                                rows = table.findAll("tr")
+                                csvFile = open("temperature.csv", 'wt' , newline='')
+                                writer = csv.writer(csvFile)
+                                try:
+                                    for row in rows:
+                                        csvRow = []
+                                        for cell in row.findAll(['td', 'th']):
+                                            csvRow.append(cell.get_text())
+                                        writer.writerow(csvRow)
+                                finally:
+                                    csvFile.close()
+
+
