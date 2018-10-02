@@ -61,19 +61,15 @@ for city_ctr in range(city_length):
                                 soup = BeautifulSoup(driver.page_source, "html.parser")
                         
                                 #put here the reader for table, store and export to csv if possible
-                                html = urlopen('driver')
-#driver nilagay ko na link pero ganito dapat -- html = urlopen("http.bla3")
-bsObj = BeautifulSoup(html,"lxml")
-table = bdObj.findAll("table", {"class":"drilldown cl"})[0]
-#not sure sa class name na nilagay ko
-rows = table.findAll("tr")
-csvFile = open("temperature.csv", 'wt' , newline='')
-writer = csv.writer(csvFile)
-try:
-	for row in rows:
-	csvRow = []
-	for cell in row.findAll(['td', 'th']):
-		csvRow.append(cell.get_text())
-	writer.writerow(csvrow)
-finally:
-	csvFile.close()
+                                table = soup.findAll("table", {"class":"calendar-list"})[0]
+								rows = table.findAll("tr")
+								csvFile = open("temperature.csv", 'wt' , newline='')
+								writer = csv.writer(csvFile)
+								try:
+									for row in rows:
+									csvRow = []
+									for cell in row.findAll(['td', 'th']):
+										csvRow.append(cell.get_text())
+									writer.writerow(csvrow)
+								finally:
+									csvFile.close()
