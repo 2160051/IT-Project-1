@@ -1,0 +1,56 @@
+-- Means completed already
+Temperature at the time of observation - TOBS
+Average Temperature - TAVG
+Maximum temperature - TMAX
+Minimum temperature - TMIN
+
+Alabama --
+Alaska --
+Arizona --
+Arkansas --
+California --
+Colorado --
+Connecticut --
+Delaware --
+Florida --
+Georgia --
+Hawaii --
+Idaho --
+Illinois --
+Indiana --
+Iowa --
+Kansas --
+Kentucky --
+Louisiana --
+Maine --
+Maryland --
+Massachusetts --
+Michigan --
+Minnesota --
+Mississippi (M)
+Missouri (M)
+Montana (M)
+Nebraska (M)
+Nevada (M)
+New Hampshire (M)
+New Jersey (M)
+New Mexico (M)
+New York (M)
+North Carolina (M)
+North Dakota (M)
+Ohio (M)
+Oklahoma (M)
+Oregon (J)
+Pennsylvania (J)
+Rhode Island (J)
+South Carolina (J)
+South Dakota (J)
+Tennessee (J)
+Texas (J)
+Utah (J)
+Vermont (J)
+Virginia (J)
+Washington (J)
+West Virginia (J)
+Wisconsin (J)
+Wyoming (J)

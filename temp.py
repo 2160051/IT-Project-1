@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 driver = webdriver.Chrome()
 driver.get("https://www.accuweather.com/en/browse-locations/nam/us")
 soup = BeautifulSoup(driver.page_source, "html.parser")
-li_class = soup.find_all('li', class_='drilldown cl')
+li_class = soup.select('li[class*="drilldown cl"]')
 states = []
 state_links_extracted = []
 #month_links_extracted = []
@@ -27,7 +27,7 @@ state_length = len(states)
 for state_ctr in range(state_length):
     driver.get(state_links_extracted[state_ctr])
     soup = BeautifulSoup(driver.page_source, "html.parser")
-    li_class = soup.find_all('li', class_='drilldown cl')
+    li_class = soup.select('li[class*="drilldown cl"]')
     for li in li_class:
         for a_cities in li.find_all("a"):
             city_temp_file = dir_name + "/" + states[state_ctr] + "/" + a_cities.text + ".csv"
@@ -149,3 +149,4 @@ for state_ctr in range(state_length):
                                                 writer.writerow(item)
                     temp_file.close()
 
+driver.close()
