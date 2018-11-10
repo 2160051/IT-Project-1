@@ -1,0 +1,607 @@
+Alabama
+1. Health Care 
+2. Aerospace and Defense
+3. Educational Services
+4. Automobile
+5. Electrical Power Distribution
+6. Upholstery
+7. Wholesale
+8. Aircraft and Maintenance
+9. Food Services
+10. Insurance
+
+
+Alaska
+1. Health Care
+2. Wholesale
+3. Airports
+4. Telecommunication Services
+5. Educational Services
+6. Transportation
+7. Gas Utilities
+8. Hotels Restaurants and Leisure
+9. Social Services
+10. Food Products
+
+
+Arizona
+1. Educational Services
+2. Health Care
+3. Hotels Restaurants and Leisure
+4. Manufacturing
+5. Public Service
+6. Transportation
+7. Internet and Software Services
+8. Airline
+9. Aerospace
+10. Publishing
+
+Arkansas
+1. Education Services
+2. Health Care
+3. Wholesale
+4. Food
+5. Automotive
+6. Media Services
+7. Telemarketing 
+8. Public Services
+9. Aircraft
+10. Retailing
+
+California
+1. Education Services
+2. Public Services
+3. Hotels Restaurants and Leisure
+4. Health care
+5. Internet and Software Services
+6. Airlines
+7. Transportation
+8. Wholesale
+9. Media Service
+10. Oil Field Services
+
+Colorado
+1. Education Services 
+2. Airline
+3. Health Care
+4. Aeronautics
+5. Telecommunication
+6. Financial Services
+7. Hotels, Restaurants and Leisure
+8. Insurance
+9. Food and Beverages
+10. Public Service
+
+Connecticut
+1. Health Care
+2. Insurance
+3. Aerospace
+4. Educational Services
+5. Aircraft
+6. Ship Building
+7. Hotel Restaurants and Leisure
+8. Utilities
+9. Agricultural
+10. Pharmaceutical
+
+Delaware
+1. Health Care
+2. Poultry
+3. Public Services
+4. Pharmaceutical
+5. Professional Services
+6. Hotel Restaurants and Leisure
+7. Business Support Service
+8. Construction and Engineering
+9. Social Services
+10. Financial Services
+
+Florida
+1. Hotels Restaurants and Leisure 
+2. Retailing
+3. Professional Services 
+4. Internet Software and Services 
+5. Transportation 
+6. Financial
+7. Health Care 
+8. Food 
+9. CarRental
+10. Automotive
+
+Georgia
+1. Retailing 
+2. Air Freight 
+3. Professional Services 
+4. beverages 
+5. Airlines 
+6. Diversified Telecommunication Services 
+7. Paper and forest Products 
+8. Automotive 
+9. Containers and Packaging 
+10. Textiles, apparel and Luxury Goods 
+
+Hawaii
+1. Health Care 
+2. Airlines 
+3. Educational Services 
+4. Hotels Restaurants and Leisure 
+5. Commercial Service 
+6. Bank 
+7. Electrical Services 
+8. Real Estate Management and Develop 
+9. Air Freight 
+10. Insurance 
+
+Idaho
+1. Food 
+2. Technology Hardware, Storage and Peripherals 
+3. Media 
+4. Consumer Staples 
+5. Retail 
+6. Family Service 
+7. Professional Services 
+8. Educational Services
+9. Diversified Financial Services
+10. Health Care 
+
+Illinois
+1. Hotels Restaurants and Leisure 
+2. Retail
+3. Food
+4. Professional Services
+5. Diversified Financial Services
+6. Airline
+7. RealEstate
+8. Health Care
+9. Industrial Conglomerates
+10. Pharmaceutical 
+
+Indiana
+1. Automotive
+3. Pharmaceutical 
+2. Insurance 
+4. Health Care 
+5. Professional Services 
+6. Hotels Restaurants and Leisure 
+7. Educational Services 
+8. Containers and Packaging
+9. Commercial Service 
+10. Building Materials 
+
+Iowa
+1. Retailing 
+2. Aerospace 
+3. Educational Services 
+4. Consumer Discretionary 
+5. Diversified Consumer Services 
+6. Health Care 
+7. Automotive 
+8. Transportation 
+9. Food
+10. Household Durables
+
+Kansas
+1. Chemicals
+6. Hotels Restaurants and Leisure
+2. Road and Rail 
+3. Retail 
+4. Conglomerate 
+5. Transportation 
+7. Diversified Telecommunication Services 
+8. Textiles, Apparel and Luxury Goods 
+9. Health Care 
+10. Aerospace
+
+Kentucky
+1. Hotels Restaurants and Leisure 
+2. Health Care 
+3. Insurance 
+4. Automotive
+5. Internet Software and Services
+6. Food 
+7. Chemicals
+8. Education Services
+9. Retail
+10. Chemicals
+
+Louisiana
+1. Health Care 
+2. Gas Utilities
+3. Diversified Telecommunication Services
+4. Electrical Equipment
+5. Machinery
+6. Construction and Engineering
+7. Energy Utility
+8. Educational Services
+9. Public Services
+10. Marine
+
+Maine
+1. Health Care
+2. Professional Services
+3. Retailing
+4. Biotechnology
+5. Paper and Forest Products
+6. Food
+7. Diversified Consumer Services
+8. Internet Software and Services
+9. Educational Services
+10. Pharmaceutical 
+
+Maryland
+1. Hotels Restaurants and Leisure
+2. Diversified Consumer Services
+3. Health Care
+4. Educational Services
+5. Internet Software and Services
+6. Food
+7. Aerospace
+8. Machinery
+9. Retailing
+10. Capital Markets
+
+Massachusetts
+1. Electric Utilities
+2. Retailing
+3. Hotels Restaurants and Leisure
+4. Internet Software and Services
+5. Aerospace
+6. Diversified Financial Services
+7. Professional Services
+8. Insurance
+9. Educational Services
+10. Pharmaceutical
+
+Michigan
+1. Automotive
+2. Aerospace
+3. Industrial Conglomerates
+4. FoodProduct
+5. Education Services
+6. Chemicals
+7. Pharmaceutical
+8. Transportation
+9. Building Materials
+10. Health Care
+
+Minnesota
+1. Retail 
+2. Health Care
+3. Hotels Restaurants and Leisure
+4. FoodProduct
+5. Conglomerate 
+6. IT Services 
+7. Banking
+8. Professional Services
+9. Pharmaceutical
+10. Renewable Electricity
+
+Mississippi
+1. Health Care
+4. Hotels Restaurants and Leisure
+2. Food Products
+3. Banks
+5. Services
+6. Construction and Engineering
+7. Pharmaceutical
+8. Aerospace and Defense
+9. Educational Services
+10. Gas Utilities
+
+Missouri
+1. Health Care
+2. Automotive
+3. Construction and Engineering
+4. Professional Services
+5. Beverages
+6. Retailing
+7. Internet Software and Services
+8. Hotels Restaurants and Leisure
+9. Specialty Retail
+10. Food Products
+
+Montana 
+1. Health Care
+2. Banking
+8. Transportation
+6. Retailing
+3. Public Services
+4. Diversified Consumer Services
+5. Industrial Conglomerates
+7. Professional Services
+9. Commercial Service
+10. Educational Services
+
+Nebraska
+1. Utilities
+2. Transportation
+3. Commercial Service
+4. Retailing
+5. Family Service
+6. Health Care
+7. Professional Services
+8. Diversified Telecommunication Services
+9. Machinery
+10. Construction and Engineering
+
+Nevada
+1. Hotels Restaurants and Leisure
+2. Automotive
+7. Internet Software and Services
+3. Services
+4. Gas Utilities
+5. FoodProduct
+6. Health Care
+8. Accounting System
+9. Consumer Discretionary
+10. Media Services
+
+New Hampshire
+1. Retail
+2. Educational Services 
+5. Health Care 
+3. Textiles, Apparel and Luxury Goods 
+1. Hotels Restaurants and Leisure 
+6. Professional Services 
+4. Commercial Service 
+7. Internet Software and Services 
+8. Aerospace and Defense
+9. Leisure Products
+10. Machinery 
+
+New Jersey
+1. Diversified Consumer Services
+3. Pharmaceutical 
+6. Retailing
+4. Professional Services
+2. Conglomerate
+7. Consumer Goods
+9. Health Care
+5. Diversified Telecommunication Services
+8. Diversified Financial Services
+10. Hotels Restaurants and Leisure
+
+New Mexico
+1. Health Care 
+2. Educational Services
+3. Aerospace and Defense
+4. Food Products
+5. Utilities
+6. Pharmaceutical
+7. Hotels Restaurants and Leisure
+8. Professional Services
+9. Automotive
+10. Construction and Engineering
+
+New York
+1. Banking
+2. Internet Software and Services
+3. Beverages
+4. Diversified Telecommunication Services
+5. Professional Services
+6. Pharmaceutical
+7. Conglomerate
+8. Consumer Staple
+9. Media
+10. Air Freight
+
+North Carolina
+1. Retailing
+2. Banking
+3. Personal Services
+8. Health Care
+4. Food Products
+5. Textiles Apparel and Luxury Goods
+6. Consumer Staples
+7. Gas Utilities 
+9. Diversified Financial Services
+10. Electric Utilities
+
+North Dakota
+1. Textiles Apparel and Luxury Goods 
+2. Electrical Power Construction
+3. Hotels Restaurants and Leisure
+4. Health Care
+5. Educational Services
+6. Electrical Equipment
+7. Diversified Telecommunication Services
+8. Construction and Engineering
+9. Machinery
+10. Media
+
+Ohio
+1. Food Products
+2. Retailing
+3. IT Services
+4. Consumer Goods
+5. Industrial Conglomerates
+6. Transportation
+7. Gas Utilities
+8. Chemicals
+9. Diversified Consumer Services
+10. Health Care
+
+Oklahoma
+1. Professional Services
+2. Retailing
+3. Automotive
+5. Hotels Restaurants and Leisure
+6. Health Care
+7. Educational Services
+4. Electric Utilities
+8. Banking
+9. Internet Software and Services
+10. Diversified Telecommunication Services
+
+Oregon
+2. Automotive
+1. Aerospace and Defense
+3. Educational Services
+9. Health Care
+4. Road and Rail
+5. Public Services
+6. Professional Services
+7. Textiles Apparel and Luxury Goods
+8. Food Products
+10. Electrical Equipment
+
+Pennsylvania
+1. Health Care
+2. Professional Services
+3. Diversified Telecommunication Services 
+4. Metals and Mining 
+5. Retailing
+6. Banks
+7. Food Products
+8. Retailing
+9. Renewable Electricity 
+10. Internet Software and Services
+
+Rhode Island
+1. Health Care
+2. Banking
+3. Pharmaceutical
+6. Educational Services
+4. Electrical Equipment
+5. Food Products
+7. Construction and Engineering
+8. Retailing
+9. Insurance
+10. Media
+
+South Carolina
+1. Pharmaceutical
+2. Education Services
+3. Manufacturing
+4. Automotive 
+5. Health Care 
+6. Containers and Packaging 
+7. Industrial Conglomerates 
+8. Food Products
+9. Internet Software and Services
+10. Educational Services
+
+South Dakota
+1. Health Care
+2. Banking
+3. Gas Utilities
+4. Household Durable
+5. Food Products
+6. Educational Services
+7. Utilities
+8. Retailing
+9. Public Services
+10. Hotels Restaurants and Leisure
+
+
+Tennessee
+1. Health Care
+2. Air Freight
+3. Hotel Restaurants and Leisure
+4. Textile
+5. Retailing
+6. PaperandForest
+7. Professional Services
+8. Automotive
+9. Diversified Consumer Services
+10. Construction and Engineering
+
+
+Texas
+1. Health CareHotel Restaurants and Leisure
+2. Educational Services 
+3. Oil and Gas 
+5. Computers and Computer Equipments
+4. Transportation
+6. Management Consulting Services
+7. Technology Hardware, Storage and Peripherals
+8. Internet Software and Services
+9. Engineering Services
+10. Food Products
+
+Utah
+1. Health Care
+2. Educational Services
+3. Internet Software and Services
+4. Oil and Gas
+5. Freight
+6. Manufacture
+7. Retailing
+8. Transportation
+9. Hotel Restaurants and Leisure
+10. Public Services
+
+Vermont
+1. Health Care
+2. Hotels Restaurants and Leisure
+3. Educational Service
+4. Food Products
+5. Telecommunication Services
+6. Aircraft
+7. Wholesale
+8. Internet Software and Services
+9. Services
+10. Chemicals
+
+Virginia
+1. Health Care
+2. Educational Services Aerospace
+3. Ship Building and Repairing 
+4. Telecommunication
+5. Wholesale
+6. Food Services
+7. Public Service
+8. Oil and Gas
+9. Consulting Services
+10. Internet Software and Services
+
+Washington
+1. Health Care
+2. Educational Service
+3. Internet Software and Services
+4. Aircraft
+5. National Security
+6. Research and Technology
+7. Manufacturing
+8. Hotel Restaurants and Leisure
+9. Wholesale
+10. Telecommunication Services
+
+West Virginia
+1. Health Care 
+2. Hotels Restaurants and Leisure
+3. Educational Services
+4. Metals and Mining
+5. Public Service
+6. Wholesale
+7. Professional Services
+8. Aerospace
+9. Automobile
+10. Pharmaceuticals
+
+
+Wisconsin
+1. Health Care
+2. Educational Services
+3. Insurance
+4. Residential
+5. Internet and Software Services
+6. Retailing
+7. Machinery
+8. Airline
+9. Automation
+10. Financial Services
+
+Wyoming
+1. Educational Services
+2. Health Care
+3. Mining
+4. Hotel Restaurants and Leisure
+5. Public Service
+6. Wholesale
+7. Construction
+8. Wholesale
+9. Professional Services
+10. Oil and Gas
+
+
