@@ -7,19 +7,19 @@ Minimum temperature - TMIN
 Precipitation - PRCP
 Snowfall - SNOW
 
-Alabama (N)
-Alaska (N)
-Arizona (N)
-Arkansas (N)
-California (N)
-Colorado (N)
-Connecticut (N)
-Delaware (N)
-Florida (N)
-Georgia (N)
-Hawaii (N)
-Idaho (N)
-Illinois (N)
+Alabama --
+Alaska --
+Arizona --
+Arkansas --
+California --
+Colorado --
+Connecticut --
+Delaware --
+Florida --
+Georgia --
+Hawaii --
+Idaho --
+Illinois --
 Indiana (C)
 Iowa (C)
 Kansas (C)
