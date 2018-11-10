@@ -4,10 +4,6 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib import style
-##style.use('fivethirtyeight')
-style.use('ggplot')
 
 ##Gather Data
 def get_population():
@@ -47,14 +43,4 @@ pop_density['Population_Density(sq.miles)'] = pop_density['2018 Population']/mer
 
 #output
 print(pop_density)
-
-#visualization
-y_pos = np.arange(len(pop_density['State']))
-
-plt.barh(y_pos, pop_density['Population_Density(km²)'])
-plt.yticks(y_pos, pop_density['State'])
-
-plt.xlabel('Population_Density(km²)')
-plt.ylabel('States')
-
-plt.show()
+pop_density.to_csv('popdensity.csv')
