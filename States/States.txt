@@ -1,35 +1,38 @@
 -- Means completed already
+Needed Info:
 Temperature at the time of observation - TOBS
 Average Temperature - TAVG
 Maximum temperature - TMAX
 Minimum temperature - TMIN
+Precipitation - PRCP
+Snowfall - SNOW
 
-Alabama --
-Alaska --
-Arizona --
-Arkansas --
-California --
-Colorado --
-Connecticut --
-Delaware --
-Florida --
-Georgia --
-Hawaii --
-Idaho --
-Illinois --
-Indiana --
-Iowa --
-Kansas --
-Kentucky --
-Louisiana --
-Maine --
-Maryland --
-Massachusetts --
-Michigan --
-Minnesota --
-Mississippi (M)
-Missouri (M)
-Montana (M)
+Alabama (N)
+Alaska (N)
+Arizona (N)
+Arkansas (N)
+California (N)
+Colorado (N)
+Connecticut (N)
+Delaware (N)
+Florida (N)
+Georgia (N)
+Hawaii (N)
+Idaho (N)
+Illinois (N)
+Indiana (C)
+Iowa (C)
+Kansas (C)
+Kentucky (C)
+Louisiana (C)
+Maine (C)
+Maryland (C)
+Massachusetts (C)
+Michigan (C)
+Minnesota (C)
+Mississippi (C)
+Missouri (C)
+Montana (C)
 Nebraska (M)
 Nevada (M)
 New Hampshire (M)
@@ -40,9 +43,9 @@ North Carolina (M)
 North Dakota (M)
 Ohio (M)
 Oklahoma (M)
-Oregon (J)
-Pennsylvania (J)
-Rhode Island (J)
+Oregon (M)
+Pennsylvania (M)
+Rhode Island (M)
 South Carolina (J)
 South Dakota (J)
 Tennessee (J)
