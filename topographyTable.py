@@ -1,5 +1,6 @@
 # To comment a block in Visual Studio Code, highlight then Ctr+K and Ctrl+C
 # To uncomment a block, highlight then Ctrl+K and Ctrl+U
+import re
 import os
 import csv
 from selenium import webdriver
@@ -14,10 +15,14 @@ us_states = ["Alaska", "Alabama", "Arkansas", "Arizona", "California", "Colorado
 #states = input("Which state do you want to check? ")
 row = []
 dir_name = os.path.dirname(__file__)
-topo_file = dir_name + "/" + "Topography.csv"
+topo_file = dir_name + "/" + "Number of Certain Topo Char Per State.csv"
 inp = "Yes"
 states = ""
 glaciers = locales = beach = areas = lakes = streams = swamps = forests = plains = woods = 0
+
+def toDigit(char_string, digit_out = None):
+    digit_out = re.sub("[^0-9]", '', char_string)
+    return digit_out
 
 def topography_table(): #to make the code output just a state, comment out states and add an argument which accepts the state then change the loop argument
     temp_file = open(topo_file,"w",newline='')
@@ -32,72 +37,102 @@ def topography_table(): #to make the code output just a state, comment out state
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        glaciers = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        glaciers = int(span_char)
             if name_class.text == "Locales":
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        locales = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        locales = int(span_char)
             if name_class.text == "Beaches":
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        beach = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        beach = int(span_char)
             if name_class.text == "Areas":
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        areas = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        areas = int(span_char)
             if name_class.text == "Lakes":
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        lakes = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        lakes = int(span_char)
             if name_class.text == "Streams":
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        streams = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        streams = int(span_char)
             if name_class.text == "Swamps":
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        swamps = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        swamps = int(span_char)
             if name_class.text == "Forests":
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        forests = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        forests = int(span_char)
             if name_class.text == "Plains":
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        plains = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        plains = int(span_char)
             if name_class.text == "Woods":
                 driver.get(page + a_links["href"])
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 ul_class = soup.find(class_="state-list")
-                for a_text in ul_class.find_all("a"):
+                for li_links in ul_class.find_all("li"):
+                    a_text = li_links.find("a")
                     if a_text.text == states:
-                        woods = 1
+                        span_txt = li_links.find("span")
+                        span_char = toDigit(span_txt.text)
+                        woods = int(span_char)
 
         row = [states, glaciers, locales, beach, areas, lakes, streams, swamps, forests, plains, woods]
         writer.writerow(row)
@@ -108,7 +143,7 @@ def topography_table(): #to make the code output just a state, comment out state
 
 try:
     if os.path.getsize(topo_file) > 0:
-        print("Topography.csv already exists")
+        print("Number of Certain Topo Char Per State.csv")
     else: 
         topography_table()
 except OSError as e:
